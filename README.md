@@ -25,12 +25,12 @@ Terminal for command-line execution
 To compile each program, navigate to the source code folder and run:
 
 # For serial programs:
-g++ <SerialProgramName>.cpp -o <OutputFileName>
+g++ SerialProgramName.cpp -o OutputFileName
 
 # For parallel programs:
-g++ -fopenmp <ParallelProgramName>.cpp -o <OutputFileName>
+g++ -fopenmp ParallelProgramName.cpp -o OutputFileName
 
 # Execution 
-./<OutputFileName>
+./OutputFileName
 
 
